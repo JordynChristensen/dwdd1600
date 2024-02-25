@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 16px;
     font-weight: 300;
     margin: 0;
@@ -14,18 +14,18 @@ header
 header h1
 {
     margin: 0;
-    color: #024873;
+    color: #664229;
 }
 header p
 {
     margin: 0;
-    color: #024873;
+    color: #664229;
     letter-spacing: .5px;
 }
 /* nav stuff goes here*/
 nav
 {
-    background-color: #F2B705;
+    background-color: #E5D3B3;
 }
 nav ul
 {
@@ -38,7 +38,7 @@ nav a
 {
     font-size: 1.1rem;
     text-decoration: none;
-    color:  #024873;
+    color:  #664229;
     font-weight: 700;
     display: block;
     padding : .83rem 2rem; 
@@ -61,16 +61,16 @@ main
 }
 main h1
 {
-    color: #B40412;
+    color: #33526a;
 }
 main h2
 {
-    color: #024873;
+    color: #664229;
     margin-bottom: .2rem;
 }
 main p
 {
-    color: #2F3133;
+    color: #664229;
     margin: 0 0 .3rem 0;
 }
 main ol
@@ -80,7 +80,7 @@ main ol
 }
 main dl dt
 {
-    color: #B40412;
+    color: #33526a;
     font-weight: 700;
 }
 main dl dd
@@ -102,7 +102,7 @@ main ul li
 main address
 {
     font-style: normal;
-    background-color: #F2B705;
+    background-color: #E5D3B3;
     padding: .5rem;
     width: 12.5rem;
     border: 1px solid #024873;
@@ -114,7 +114,7 @@ main a
 }
 main a:hover
 {
-    color: rgb(239,0,24)
+    color: 33526a
 }
 
 /* footer stuff goes right here */
