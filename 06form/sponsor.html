@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title> Barrel Racing Resources: About</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name ="description" content="Learn about Barrel Racing ">
+        <meta name="author" content="Jordyn Christensen">
+        <link rel="stylesheet" href="Barrels.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.google.com/noto/specimen/Noto+Sans" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Start of the header-->
+        <header>
+            <h1>Barrel Racing Resources</h1>
+            <p>Learn about Barrel racing</p>
+        </header>
+        <!-- Start of the nav-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Learn about Barrel Racing</a></li>
+                <li><a href="Races.html">Races</a></li>
+                <li><a href="gallery.html">Race Photos</a></li>
+                <li class="active"><a href="sponsor.html">Sponsor Me</a></li>
+
+            </ul>
+        </nav>
+        <!-- Start of the main-->
+        <main>
+            <h1>Support Your Local Racer</h1>
+
+            <form method="get" class="myForm" action="thanks.html">
+                <fieldset>   
+                <legend>Sponsor Information</legend>
+                <label> Business Name *<input type="text" name="name" required placeholder="Jim's Business Name"></label>
+                <label> Email *<input type="email" name="email" required placeholder="john@example.com"></label>
+                <label> Cell Number *<input type="tel" name="phone" required placeholder="678-999-8212"></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Season</legend>
+                    <label><input type="radio" name="method" value="spring">Spring 2024 Season (Current Season)</label> 
+                    <label><input type="radio" name="method" value="fall">Fall 2024 Season (Next Season)</label> 
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sponsor Amount</legend>
+                    <label><input type="checkbox" name="method" value="entry">Entry Fee ($30)</label> 
+                    <label><input type="checkbox" name="method" value="stall">Stall Fee ($75)</label> 
+                    <label><input type="checkbox" name="method" value="banner">Banner ($500)</label> 
+                    <label><input type="checkbox" name="method" value="banner">Custom (Specify Below)</label>
+
+                    <label> Payment Type
+                        <select name="time">
+                        <option value="none">Please Select</option>
+                        <option value="cash">Cash</option>
+                        <option value="card">Card</option>
+                        <option value="check">Check</option>
+                        <option value="venmo">Venmo</option>
+                        <option value="other">Other</option>
+                    </select>
+                        </label>
+                </fieldset>
+                
+                <label>
+                    Other
+                    <textarea name="other" placeholder="If other was selected, specify why. "></textarea>
+                </label>
+                <input type="submit" value="Confirm Sponsorship Information">
+                </form>
+        </main>
+        <!-- Start of the footer-->
+        <footer>
+            <p>
+                &copy; 2024 &bull; Jordyn Christensen &bull; <a href="mailto:jordynchristensen013.com"> Email Us</a>
+            </p>
+        </footer>
+    </body>
+</html>
